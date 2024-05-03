@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "c:\\Users\\crohr\\source\\repos\\HomeCopilot\\LenderUI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\LenderUI.bundle.scp.css",
+      "PackagePath": "staticwebassets\\LenderUI.bundle.scp.css"
+    },
+    {
+      "Id": "c:\\Users\\crohr\\source\\repos\\HomeCopilot\\LenderUI\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "c:\\Users\\crohr\\source\\repos\\HomeCopilot\\LenderUI\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "c:\\Users\\crohr\\source\\repos\\HomeCopilot\\LenderUI\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "c:\\Users\\crohr\\source\\repos\\HomeCopilot\\LenderUI\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.LenderUI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.LenderUI.props",
+      "PackagePath": "build\\LenderUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.LenderUI.props",
+      "PackagePath": "buildMultiTargeting\\LenderUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.LenderUI.props",
+      "PackagePath": "buildTransitive\\LenderUI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

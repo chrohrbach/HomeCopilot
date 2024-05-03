@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\crohr\\source\\repos\\HomeCopilot\\LandlordUI\\LandlordUI.csproj": {}
+    "C:\\Users\\crohr\\source\\repos\\HomeCopilot\\LandlordUI\\LandlordUI.csproj": {}
   },
   "projects": {
-    "c:\\Users\\crohr\\source\\repos\\HomeCopilot\\LandlordUI\\LandlordUI.csproj": {
+    "C:\\Users\\crohr\\source\\repos\\HomeCopilot\\LandlordUI\\LandlordUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\crohr\\source\\repos\\HomeCopilot\\LandlordUI\\LandlordUI.csproj",
+        "projectUniqueName": "C:\\Users\\crohr\\source\\repos\\HomeCopilot\\LandlordUI\\LandlordUI.csproj",
         "projectName": "LandlordUI",
-        "projectPath": "c:\\Users\\crohr\\source\\repos\\HomeCopilot\\LandlordUI\\LandlordUI.csproj",
+        "projectPath": "C:\\Users\\crohr\\source\\repos\\HomeCopilot\\LandlordUI\\LandlordUI.csproj",
         "packagesPath": "C:\\Users\\crohr\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\crohr\\source\\repos\\HomeCopilot\\LandlordUI\\obj\\",
+        "outputPath": "C:\\Users\\crohr\\source\\repos\\HomeCopilot\\LandlordUI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\crohr\\AppData\\Roaming\\NuGet\\NuGet.Config"
