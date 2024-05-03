@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pPk41XZy5+pifL/NJyJ+VDvby3qhYcVfxBsSCqtwap45hbaDMPUIdu3wTnX8CvEMiSbCbfTFPBHW6Tb/ETQ2LA==",
+  "dgSpecHash": "a0LnARGxWV+qMxp/rp1dkGMdt8lHSRYFyQmIjN8pfdwwDs77xj1MgkNoEqg8KY0igxro/YnXJ5L4yrNYKCzivg==",
   "success": true,
-  "projectFilePath": "/Users/crohrbach/Projects/HomeCopilot/LandlordUI/LandlordUI.csproj",
+  "projectFilePath": "c:\\Users\\crohr\\source\\repos\\HomeCopilot\\LandlordUI\\LandlordUI.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
