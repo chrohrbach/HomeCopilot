@@ -1,5 +1,4 @@
-CREATE TABLE [dbo].[Table1]
+CREATE TABLE [dbo].[Role]
 (
   [Id] INT NOT NULL PRIMARY KEY
-  
 )

@@ -1,0 +1,4 @@
+CREATE TABLE [dbo].[Tenant]
+(
+  [Id] INT NOT NULL PRIMARY KEY
+)

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\crohr\\source\\repos\\HomeCopilot\\LandlordUI\\LandlordUI.csproj",
-      "projectName": "LandlordUI",
-      "projectPath": "C:\\Users\\crohr\\source\\repos\\HomeCopilot\\LandlordUI\\LandlordUI.csproj",
+      "projectUniqueName": "C:\\Users\\crohr\\source\\repos\\HomeCopilot\\Shared\\Shared.csproj",
+      "projectName": "Shared",
+      "projectPath": "C:\\Users\\crohr\\source\\repos\\HomeCopilot\\Shared\\Shared.csproj",
       "packagesPath": "C:\\Users\\crohr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\crohr\\source\\repos\\HomeCopilot\\LandlordUI\\obj\\",
+      "outputPath": "C:\\Users\\crohr\\source\\repos\\HomeCopilot\\Shared\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\crohr\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -62,9 +62,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }

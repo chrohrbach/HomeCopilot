@@ -1,0 +1,4 @@
+CREATE TABLE [dbo].[Step]
+(
+  [Id] INT NOT NULL PRIMARY KEY
+)
