@@ -368,11 +368,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\crohr\\source\\repos\\HomeCopilot\\Database\\Database.sqlproj",
+      "projectUniqueName": "c:\\Users\\crohr\\sources\\repos\\HomeCopilot\\Database\\Database.sqlproj",
       "projectName": "Database",
-      "projectPath": "c:\\Users\\crohr\\source\\repos\\HomeCopilot\\Database\\Database.sqlproj",
+      "projectPath": "c:\\Users\\crohr\\sources\\repos\\HomeCopilot\\Database\\Database.sqlproj",
       "packagesPath": "C:\\Users\\crohr\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\crohr\\source\\repos\\HomeCopilot\\Database\\obj\\",
+      "outputPath": "c:\\Users\\crohr\\sources\\repos\\HomeCopilot\\Database\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\crohr\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -381,9 +381,7 @@
         "netstandard2.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://packages.infragistics.com/nuget/licensed?_ga=2.66449965.2070293618.1704349884-1546327327.1704009698&_gl=1*1uhgi0p*_ga*MTU0NjMyNzMyNy4xNzA0MDA5Njk4*_ga_PN11HXDV6X*MTcwNDM1MDA1OS4zLjAuMTcwNDM1MDA1OS42MC4wLjA.": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net46": {
@@ -395,11 +393,6 @@
         "noWarn": [
           "NU5128"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {

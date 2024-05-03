@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yrqs+owjB/bb+XsrLrRLQh25KRdJYM/VFxGEGb9bnh0W9vvPLgvqvJ7CHwbgWHE5dTndy9EbXGG6dip9hWbMDQ==",
+  "dgSpecHash": "pJfgrfaMxeVH1oFIXVBbxpQS752R/7YjNdjv9MKPnFe3+MvZg1tzjCOPuwOMTUae7lupY7S4YL8Ih7vF1XSnsQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\crohr\\source\\repos\\HomeCopilot\\Database\\Database.sqlproj",
+  "projectFilePath": "c:\\Users\\crohr\\sources\\repos\\HomeCopilot\\Database\\Database.sqlproj",
   "expectedPackageFiles": [
     "C:\\Users\\crohr\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.0\\microsoft.netframework.referenceassemblies.1.0.0.nupkg.sha512",
     "C:\\Users\\crohr\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net46\\1.0.0\\microsoft.netframework.referenceassemblies.net46.1.0.0.nupkg.sha512"

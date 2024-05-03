@@ -1,6 +1,6 @@
 /*
-      public required string Address { get; set; }
-      public bool IsValid { get; set; } = false;
+  public required string Address { get; set; }
+  public bool IsValid { get; set; } = false;
 */
 CREATE TABLE [dbo].[Email]
 (
