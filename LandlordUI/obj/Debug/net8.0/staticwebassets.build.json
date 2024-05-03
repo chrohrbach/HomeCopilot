@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "plp6GSRKMysAZPfn0NvnY8tv+vVqCymnY3W4XAUi360=",
+  "Hash": "0jAamczxAVNpJOG96Xuwj1bnGMRX6m7QUcuhStDPZPQ=",
   "Source": "LandlordUI",
   "BasePath": "_content/LandlordUI",
   "Mode": "Default",
@@ -8,19 +8,19 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "LandlordUI\\wwwroot",
+      "Name": "LandlordUI/wwwroot",
       "Source": "LandlordUI",
-      "ContentRoot": "C:\\Users\\crohr\\source\\repos\\HomeCopilot\\LandlordUI\\wwwroot\\",
+      "ContentRoot": "/Users/crohrbach/Projects/HomeCopilot/LandlordUI/wwwroot/",
       "BasePath": "_content/LandlordUI",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\crohr\\source\\repos\\HomeCopilot\\LandlordUI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\LandlordUI.styles.css",
+      "Identity": "/Users/crohrbach/Projects/HomeCopilot/LandlordUI/obj/Debug/net8.0/scopedcss/bundle/LandlordUI.styles.css",
       "SourceId": "LandlordUI",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\crohr\\source\\repos\\HomeCopilot\\LandlordUI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "/Users/crohrbach/Projects/HomeCopilot/LandlordUI/obj/Debug/net8.0/scopedcss/bundle/",
       "BasePath": "_content/LandlordUI",
       "RelativePath": "LandlordUI.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\crohr\\source\\repos\\HomeCopilot\\LandlordUI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\LandlordUI.styles.css"
+      "OriginalItemSpec": "/Users/crohrbach/Projects/HomeCopilot/LandlordUI/obj/Debug/net8.0/scopedcss/bundle/LandlordUI.styles.css"
     },
     {
-      "Identity": "C:\\Users\\crohr\\source\\repos\\HomeCopilot\\LandlordUI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\LandlordUI.bundle.scp.css",
+      "Identity": "/Users/crohrbach/Projects/HomeCopilot/LandlordUI/obj/Debug/net8.0/scopedcss/projectbundle/LandlordUI.bundle.scp.css",
       "SourceId": "LandlordUI",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\crohr\\source\\repos\\HomeCopilot\\LandlordUI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "/Users/crohrbach/Projects/HomeCopilot/LandlordUI/obj/Debug/net8.0/scopedcss/projectbundle/",
       "BasePath": "_content/LandlordUI",
       "RelativePath": "LandlordUI.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\crohr\\source\\repos\\HomeCopilot\\LandlordUI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\LandlordUI.bundle.scp.css"
+      "OriginalItemSpec": "/Users/crohrbach/Projects/HomeCopilot/LandlordUI/obj/Debug/net8.0/scopedcss/projectbundle/LandlordUI.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\crohr\\source\\repos\\HomeCopilot\\LandlordUI\\wwwroot\\app.css",
+      "Identity": "/Users/crohrbach/Projects/HomeCopilot/LandlordUI/wwwroot/app.css",
       "SourceId": "LandlordUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\crohr\\source\\repos\\HomeCopilot\\LandlordUI\\wwwroot\\",
+      "ContentRoot": "/Users/crohrbach/Projects/HomeCopilot/LandlordUI/wwwroot/",
       "BasePath": "_content/LandlordUI",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -71,13 +71,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\app.css"
+      "OriginalItemSpec": "wwwroot/app.css"
     },
     {
-      "Identity": "C:\\Users\\crohr\\source\\repos\\HomeCopilot\\LandlordUI\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "/Users/crohrbach/Projects/HomeCopilot/LandlordUI/wwwroot/bootstrap/bootstrap.min.css",
       "SourceId": "LandlordUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\crohr\\source\\repos\\HomeCopilot\\LandlordUI\\wwwroot\\",
+      "ContentRoot": "/Users/crohrbach/Projects/HomeCopilot/LandlordUI/wwwroot/",
       "BasePath": "_content/LandlordUI",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -90,13 +90,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
+      "OriginalItemSpec": "wwwroot/bootstrap/bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\crohr\\source\\repos\\HomeCopilot\\LandlordUI\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "/Users/crohrbach/Projects/HomeCopilot/LandlordUI/wwwroot/bootstrap/bootstrap.min.css.map",
       "SourceId": "LandlordUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\crohr\\source\\repos\\HomeCopilot\\LandlordUI\\wwwroot\\",
+      "ContentRoot": "/Users/crohrbach/Projects/HomeCopilot/LandlordUI/wwwroot/",
       "BasePath": "_content/LandlordUI",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -109,13 +109,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
+      "OriginalItemSpec": "wwwroot/bootstrap/bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\crohr\\source\\repos\\HomeCopilot\\LandlordUI\\wwwroot\\favicon.png",
+      "Identity": "/Users/crohrbach/Projects/HomeCopilot/LandlordUI/wwwroot/favicon.png",
       "SourceId": "LandlordUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\crohr\\source\\repos\\HomeCopilot\\LandlordUI\\wwwroot\\",
+      "ContentRoot": "/Users/crohrbach/Projects/HomeCopilot/LandlordUI/wwwroot/",
       "BasePath": "_content/LandlordUI",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
@@ -128,7 +128,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.png"
+      "OriginalItemSpec": "wwwroot/favicon.png"
     }
   ]
 }
