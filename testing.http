@@ -1,2 +1,2 @@
-
-GET http://localhost:8888/api/homes
+GET https://example.com/api HTTP/1.1
+Accept: application/json
