@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\crohr\\source\\repos\\HomeCopilot\\LenderUI\\LenderUI.csproj": {}
+    "C:\\Users\\crohr\\source\\repos\\HomeCopilot\\LenderUI\\LenderUI.csproj": {}
   },
   "projects": {
-    "c:\\Users\\crohr\\source\\repos\\HomeCopilot\\LenderUI\\LenderUI.csproj": {
+    "C:\\Users\\crohr\\source\\repos\\HomeCopilot\\LenderUI\\LenderUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\crohr\\source\\repos\\HomeCopilot\\LenderUI\\LenderUI.csproj",
+        "projectUniqueName": "C:\\Users\\crohr\\source\\repos\\HomeCopilot\\LenderUI\\LenderUI.csproj",
         "projectName": "LenderUI",
-        "projectPath": "c:\\Users\\crohr\\source\\repos\\HomeCopilot\\LenderUI\\LenderUI.csproj",
+        "projectPath": "C:\\Users\\crohr\\source\\repos\\HomeCopilot\\LenderUI\\LenderUI.csproj",
         "packagesPath": "C:\\Users\\crohr\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\crohr\\source\\repos\\HomeCopilot\\LenderUI\\obj\\",
+        "outputPath": "C:\\Users\\crohr\\source\\repos\\HomeCopilot\\LenderUI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\crohr\\AppData\\Roaming\\NuGet\\NuGet.Config"
