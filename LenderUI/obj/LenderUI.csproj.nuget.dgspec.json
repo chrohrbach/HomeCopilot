@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\crohr\\source\\repos\\HomeCopilot\\LenderUI\\LenderUI.csproj": {}
+    "C:\\Users\\crohr\\sources\\repos\\HomeCopilot\\LenderUI\\LenderUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\crohr\\source\\repos\\HomeCopilot\\LenderUI\\LenderUI.csproj": {
+    "C:\\Users\\crohr\\sources\\repos\\HomeCopilot\\LenderUI\\LenderUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\crohr\\source\\repos\\HomeCopilot\\LenderUI\\LenderUI.csproj",
+        "projectUniqueName": "C:\\Users\\crohr\\sources\\repos\\HomeCopilot\\LenderUI\\LenderUI.csproj",
         "projectName": "LenderUI",
-        "projectPath": "C:\\Users\\crohr\\source\\repos\\HomeCopilot\\LenderUI\\LenderUI.csproj",
+        "projectPath": "C:\\Users\\crohr\\sources\\repos\\HomeCopilot\\LenderUI\\LenderUI.csproj",
         "packagesPath": "C:\\Users\\crohr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\crohr\\source\\repos\\HomeCopilot\\LenderUI\\obj\\",
+        "outputPath": "C:\\Users\\crohr\\sources\\repos\\HomeCopilot\\LenderUI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\crohr\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -20,9 +20,7 @@
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://packages.infragistics.com/nuget/licensed?_ga=2.66449965.2070293618.1704349884-1546327327.1704009698&_gl=1*1uhgi0p*_ga*MTU0NjMyNzMyNy4xNzA0MDA5Njk4*_ga_PN11HXDV6X*MTcwNDM1MDA1OS4zLjAuMTcwNDM1MDA1OS42MC4wLjA.": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {

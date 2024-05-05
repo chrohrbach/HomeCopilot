@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LenderUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5f9d62304ae7b21658bc1cfb66ee3e7a0dba044e")]
 [assembly: System.Reflection.AssemblyProductAttribute("LenderUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LenderUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

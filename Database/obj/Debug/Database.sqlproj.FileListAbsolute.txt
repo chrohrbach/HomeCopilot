@@ -21,3 +21,4 @@ c:\Users\crohr\sources\repos\HomeCopilot\Database\obj\Debug\postdeploy.sql
 c:\Users\crohr\sources\repos\HomeCopilot\Database\obj\Debug\predeploy.sql
 c:\Users\crohr\sources\repos\HomeCopilot\Database\obj\Debug\Database.dll
 c:\Users\crohr\sources\repos\HomeCopilot\Database\obj\Debug\Database.pdb
+c:\Users\crohr\sources\repos\HomeCopilot\Database\obj\Debug\Database.sourcelink.json
