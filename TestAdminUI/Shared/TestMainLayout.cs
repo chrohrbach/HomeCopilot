@@ -1,6 +1,7 @@
 using Bunit;
 using Microsoft.Extensions.DependencyInjection;
 using AdminUI.Shared;
+using AdminUI.Northwind;
 
 namespace TestAdminUI
 {
@@ -16,7 +17,9 @@ namespace TestAdminUI
 				typeof(IgbNavbarModule),
 				typeof(IgbIconButtonModule),
 				typeof(IgbRippleModule),
-				typeof(IgbNavDrawerModule));
+				typeof(IgbNavDrawerModule),
+				typeof(IgbGridModule));
+			ctx.Services.AddScoped<INorthwindService>(sp => new MockNorthwindService());
 			var componentUnderTest = ctx.RenderComponent<MainLayout>();
 			Assert.NotNull(componentUnderTest);
 		}

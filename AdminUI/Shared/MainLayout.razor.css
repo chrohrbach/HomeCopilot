@@ -55,3 +55,9 @@
     width: 24px;
     height: 24px;
 }
+.grid {
+    min-width: 600px;
+    min-height: 300px;
+    flex-grow: 1;
+    flex-basis: 0;
+}
