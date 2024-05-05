@@ -1,2 +1,0 @@
-GET https://example.com/api HTTP/1.1
-Accept: application/json
