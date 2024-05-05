@@ -1,7 +1,7 @@
-CREATE TABLE [dbo].[Homes]
+CREATE TABLE [dbo].[homes]
 (
 
-  [homeId] INT PRIMARY KEY,
+  [homeId] INT IDENTITY(1,1) PRIMARY KEY,
   [homeTitle] NVARCHAR(100) NOT NULL,
   [homeDescription] NVARCHAR(255) NOT NULL,
   [homeSurfaceM2] INT DEFAULT 50,
@@ -17,7 +17,7 @@ CREATE TABLE [dbo].[Homes]
   [homeAddressRegion] NVARCHAR(50),
 
   [homeLandlordId] INT,
-  FOREIGN KEY ([homeLandlordId]) REFERENCES [dbo].[Persons]([personId])
+  FOREIGN KEY ([homeLandlordId]) REFERENCES [dbo].[persons]([personId])
   
 )
 

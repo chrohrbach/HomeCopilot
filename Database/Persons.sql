@@ -1,7 +1,7 @@
-CREATE TABLE [dbo].[Persons]
+CREATE TABLE [dbo].[persons]
 (
 
-  [personId] INT PRIMARY KEY,
+  [personId] INT IDENTITY(1,1) PRIMARY KEY,
   [personTitle] NVARCHAR(30),
   [personFirstName] NVARCHAR(50) NOT NULL,
   [personLastName] NVARCHAR(50) NOT NULL,
@@ -14,10 +14,10 @@ CREATE TABLE [dbo].[Persons]
   [personAddressRegion] NVARCHAR(50),
   [personAddressIsValid] BIT,
 
-  [personPhoneNumber] NVARCHAR(50) UNIQUE,
+  [personPhoneNumber] NVARCHAR(50),
   [personPhoneNumberIsValid] BIT,
 
-  [personEmailAddress] NVARCHAR(100) UNIQUE,
+  [personEmailAddress] NVARCHAR(100) NOT NULL,
   [personEmailAddressIsValid] BIT
 
 )

@@ -1,13 +1,13 @@
-CREATE TABLE [dbo].[Steps]
+CREATE TABLE [dbo].[steps]
 (
   
-  [stepId] INT PRIMARY KEY,
+  [stepId] INT IDENTITY(1,1) PRIMARY KEY,
   [stepTitle] NVARCHAR(100) NOT NULL,
   [stepInfo] NVARCHAR(255),
   [stepExecuted] BIT,
   [stepStartDate] DATETIME,
   [stepDeadlineDate] DATETIME,
-  [stepTicketId] INT UNIQUE,
-  FOREIGN KEY ([stepTicketId]) REFERENCES [dbo].[Tickets]([ticketId]) ON DELETE CASCADE
+  [stepTicketId] INT UNIQUE NOT NULL,
+  FOREIGN KEY ([stepTicketId]) REFERENCES [dbo].[tickets]([ticketId]) ON DELETE CASCADE
 
 )

@@ -1,10 +1,10 @@
-CREATE TABLE [dbo].[Tickets]
+CREATE TABLE [dbo].[tickets]
 (
 
-  [ticketId] INT PRIMARY KEY,
+  [ticketId] INT IDENTITY(1,1) PRIMARY KEY,
   [ticketOpenDate] DATETIME NOT NULL,
   [ticketCloseDate] DATETIME,
   [ticketHomeId] INT UNIQUE NOT NULL,
-  FOREIGN KEY ([ticketHomeId]) REFERENCES [dbo].[Homes]([homeId]) ON DELETE CASCADE
+  FOREIGN KEY ([ticketHomeId]) REFERENCES [dbo].[homes]([homeId]) ON DELETE CASCADE
 
 )

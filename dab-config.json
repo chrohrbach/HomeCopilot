@@ -30,16 +30,16 @@
     }
   },
   "entities": {
-    "Person": {
+    "home": {
       "source": {
-        "object": "dbo.Person",
+        "object": "dbo.homes",
         "type": "table"
       },
       "graphql": {
         "enabled": true,
         "type": {
-          "singular": "Person",
-          "plural": "Persons"
+          "singular": "home",
+          "plural": "homes"
         }
       },
       "rest": {
@@ -54,18 +54,26 @@
             }
           ]
         }
-      ]
+      ],
+      "relationships": {
+        "relationship-name": {
+          "cardinality": "one",
+          "target.entity": "person",
+          "source.fields": ["homeLandlordId"],
+          "target.fields": ["personId"]
+        }
+      }
     },
-    "Landlord": {
+    "person": {
       "source": {
-        "object": "dbo.Landlord",
+        "object": "dbo.persons",
         "type": "table"
       },
       "graphql": {
         "enabled": true,
         "type": {
-          "singular": "Landlord",
-          "plural": "Landlords"
+          "singular": "person",
+          "plural": "persons"
         }
       },
       "rest": {
@@ -80,112 +88,15 @@
             }
           ]
         }
-      ]
-    },
-    "Home": {
-      "source": {
-        "object": "dbo.Home",
-        "type": "table"
-      },
-      "graphql": {
-        "enabled": true,
-        "type": {
-          "singular": "Home",
-          "plural": "Homes"
+      ],
+      "relationships": {
+        "relationship-name": {
+          "cardinality": "many",
+          "target.entity": "home",
+          "source.fields": ["personId"],
+          "target.fields": ["homeLandlordId"]
         }
-      },
-      "rest": {
-        "enabled": true
-      },
-      "permissions": [
-        {
-          "role": "anonymous",
-          "actions": [
-            {
-              "action": "*"
-            }
-          ]
-        }
-      ]
-    },
-    "Address": {
-      "source": {
-        "object": "dbo.Address",
-        "type": "table"
-      },
-      "graphql": {
-        "enabled": true,
-        "type": {
-          "singular": "Address",
-          "plural": "Addresses"
-        }
-      },
-      "rest": {
-        "enabled": true
-      },
-      "permissions": [
-        {
-          "role": "anonymous",
-          "actions": [
-            {
-              "action": "*"
-            }
-          ]
-        }
-      ]
-    },
-    "Phone": {
-      "source": {
-        "object": "dbo.Phone",
-        "type": "table"
-      },
-      "graphql": {
-        "enabled": true,
-        "type": {
-          "singular": "Phone",
-          "plural": "Phones"
-        }
-      },
-      "rest": {
-        "enabled": true
-      },
-      "permissions": [
-        {
-          "role": "anonymous",
-          "actions": [
-            {
-              "action": "*"
-            }
-          ]
-        }
-      ]
-    },
-    "Email": {
-      "source": {
-        "object": "dbo.Email",
-        "type": "table"
-      },
-      "graphql": {
-        "enabled": true,
-        "type": {
-          "singular": "Email",
-          "plural": "Emails"
-        }
-      },
-      "rest": {
-        "enabled": true
-      },
-      "permissions": [
-        {
-          "role": "anonymous",
-          "actions": [
-            {
-              "action": "*"
-            }
-          ]
-        }
-      ]
+      }
     }
- 
   }
 }
