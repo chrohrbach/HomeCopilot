@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\crohr\\sources\\repos\\HomeCopilot\\Database\\Database.sqlproj": {}
+    "c:\\Users\\crohr\\sources\\repos\\HomeCopilot\\DB\\Database.sqlproj": {}
   },
   "projects": {
-    "c:\\Users\\crohr\\sources\\repos\\HomeCopilot\\Database\\Database.sqlproj": {
+    "c:\\Users\\crohr\\sources\\repos\\HomeCopilot\\DB\\Database.sqlproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\crohr\\sources\\repos\\HomeCopilot\\Database\\Database.sqlproj",
+        "projectUniqueName": "c:\\Users\\crohr\\sources\\repos\\HomeCopilot\\DB\\Database.sqlproj",
         "projectName": "Database",
-        "projectPath": "c:\\Users\\crohr\\sources\\repos\\HomeCopilot\\Database\\Database.sqlproj",
+        "projectPath": "c:\\Users\\crohr\\sources\\repos\\HomeCopilot\\DB\\Database.sqlproj",
         "packagesPath": "C:\\Users\\crohr\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\crohr\\sources\\repos\\HomeCopilot\\Database\\obj\\",
+        "outputPath": "c:\\Users\\crohr\\sources\\repos\\HomeCopilot\\DB\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\crohr\\AppData\\Roaming\\NuGet\\NuGet.Config"
