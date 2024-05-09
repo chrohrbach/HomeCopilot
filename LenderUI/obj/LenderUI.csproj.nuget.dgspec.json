@@ -1,25 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\crohr\\sources\\repos\\HomeCopilot\\LenderUI\\LenderUI.csproj": {}
+    "/Users/crohrbach/Projects/HomeCopilot/LenderUI/LenderUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\crohr\\sources\\repos\\HomeCopilot\\LenderUI\\LenderUI.csproj": {
+    "/Users/crohrbach/Projects/HomeCopilot/LenderUI/LenderUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\crohr\\sources\\repos\\HomeCopilot\\LenderUI\\LenderUI.csproj",
+        "projectUniqueName": "/Users/crohrbach/Projects/HomeCopilot/LenderUI/LenderUI.csproj",
         "projectName": "LenderUI",
-        "projectPath": "C:\\Users\\crohr\\sources\\repos\\HomeCopilot\\LenderUI\\LenderUI.csproj",
-        "packagesPath": "C:\\Users\\crohr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\crohr\\sources\\repos\\HomeCopilot\\LenderUI\\obj\\",
+        "projectPath": "/Users/crohrbach/Projects/HomeCopilot/LenderUI/LenderUI.csproj",
+        "packagesPath": "/Users/crohrbach/.nuget/packages/",
+        "outputPath": "/Users/crohrbach/Projects/HomeCopilot/LenderUI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\crohr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/crohrbach/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -32,11 +33,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -61,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
