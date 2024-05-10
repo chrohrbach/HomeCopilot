@@ -20,11 +20,11 @@
     },
     "host": {
       "cors": {
-        "origins": [],
-        "allow-credentials": false
+        "allow-credentials": false,
+        "origins": ["*"]
       },
       "authentication": {
-        "provider": "StaticWebApps"
+        "provider": "Simulator"
       },
       "mode": "development"
     }
