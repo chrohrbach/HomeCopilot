@@ -363,19 +363,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\crohr\\.nuget\\packages\\": {}
+    "/Users/crohrbach/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\crohr\\sources\\repos\\HomeCopilot\\Database\\Database.sqlproj",
+      "projectUniqueName": "/Users/crohrbach/Projects/HomeCopilot/DB/Database.sqlproj",
       "projectName": "Database",
-      "projectPath": "c:\\Users\\crohr\\sources\\repos\\HomeCopilot\\Database\\Database.sqlproj",
-      "packagesPath": "C:\\Users\\crohr\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\crohr\\sources\\repos\\HomeCopilot\\Database\\obj\\",
+      "projectPath": "/Users/crohrbach/Projects/HomeCopilot/DB/Database.sqlproj",
+      "packagesPath": "/Users/crohrbach/.nuget/packages/",
+      "outputPath": "/Users/crohrbach/Projects/HomeCopilot/DB/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\crohr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/crohrbach/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
@@ -393,11 +393,6 @@
         "noWarn": [
           "NU5128"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
