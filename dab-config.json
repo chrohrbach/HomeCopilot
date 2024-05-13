@@ -1,102 +1,49 @@
-{
-  "$schema": "https://github.com/Azure/data-api-builder/releases/download/v0.11.132/dab.draft.schema.json",
-  "data-source": {
-    "database-type": "mssql",
-    "connection-string": "Server=localhost,1433;User Id=sa;Database=HomeCopilot;Password=M19$4midable$;TrustServerCertificate=True;Encrypt=True;",
-    "options": {
-      "set-session-context": false
-    }
-  },
-  "runtime": {
-    "rest": {
-      "enabled": true,
-      "path": "/api",
-      "request-body-strict": true
-    },
-    "graphql": {
-      "enabled": true,
-      "path": "/graphql",
-      "allow-introspection": true
-    },
-    "host": {
-      "cors": {
-        "allow-credentials": false,
-        "origins": ["*"]
-      },
-      "authentication": {
-        "provider": "Simulator"
-      },
-      "mode": "development"
-    }
-  },
-  "entities": {
-    "home": {
-      "source": {
-        "object": "dbo.homes",
-        "type": "table"
-      },
-      "graphql": {
-        "enabled": true,
-        "type": {
-          "singular": "home",
-          "plural": "homes"
-        }
-      },
-      "rest": {
-        "enabled": true
-      },
-      "permissions": [
-        {
-          "role": "anonymous",
-          "actions": [
-            {
-              "action": "*"
-            }
-          ]
-        }
-      ],
-      "relationships": {
-        "relationship-name": {
-          "cardinality": "one",
-          "target.entity": "person",
-          "source.fields": ["homeLandlordId"],
-          "target.fields": ["personId"]
-        }
+  {
+    "$schema": "https://github.com/Azure/data-api-builder/releases/latest/download/dab.draft.schema.json",
+    "data-source": {
+      "database-type": "mssql",
+      "connection-string": "Server=localhost,1433;User Id=sa;Database=HomeCopilot;Password=M19$4midable$;TrustServerCertificate=True;Encrypt=True;",
+      "options": {
+        "set-session-context": false
       }
     },
-    "person": {
-      "source": {
-        "object": "dbo.persons",
-        "type": "table"
-      },
-      "graphql": {
-        "enabled": true,
-        "type": {
-          "singular": "person",
-          "plural": "persons"
-        }
-      },
+    "runtime": {
       "rest": {
-        "enabled": true
+        "enabled": true,
+        "path": "/api",
+        "request-body-strict": false
       },
-      "permissions": [
-        {
-          "role": "anonymous",
-          "actions": [
-            {
-              "action": "*"
-            }
-          ]
+      "host": {
+        "mode": "development",
+        "cors": {
+          "allow-credentials": false,
+          "origins": ["*"]
+        },
+        "authentication": {
+          "provider": "Simulator"
         }
-      ],
-      "relationships": {
-        "relationship-name": {
-          "cardinality": "many",
-          "target.entity": "home",
-          "source.fields": ["personId"],
-          "target.fields": ["homeLandlordId"]
-        }
+      },
+      "cache": {
+        "enabled": false,
+        "ttl-seconds": 30
       }
+    },
+    "entities": {
+      "persons": {
+        "source": {
+          "object": "dbo.persons",
+          "type": "table"
+        },
+        "permissions": [
+          {
+            "role": "anonymous",
+            "actions": [
+              {
+                "action": "*"
+              }
+            ]
+          }
+        ]
+      }  
     }
   }
-}

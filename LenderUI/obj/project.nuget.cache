@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6K8lPlIglfcFph9giGFWRolV3XbnWNYdVpUBpSatZurqGomJRwQiiAGvairGxxkZB5EdYVprP+C6aO8ookl8pQ==",
+  "dgSpecHash": "GgbzWQurs12j+ByG4HjIu63foo8DPRPYEL7h7ebZoUe7iF+vMD6AdE0bzCv9Dkk7Oh+ktg0FkC5qVR1mik5sSw==",
   "success": true,
-  "projectFilePath": "/Users/crohrbach/Projects/HomeCopilot/LenderUI/LenderUI.csproj",
+  "projectFilePath": "C:\\Users\\crohr\\sources\\repos\\HomeCopilot\\LenderUI\\LenderUI.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

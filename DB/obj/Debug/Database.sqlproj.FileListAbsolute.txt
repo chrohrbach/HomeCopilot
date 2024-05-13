@@ -45,3 +45,15 @@ c:/Users/crohr/sources/repos/HomeCopilot/DB/obj/Debug/Database.pdb
 /Users/crohrbach/Projects/HomeCopilot/DB/obj/Debug/predeploy.sql
 /Users/crohrbach/Projects/HomeCopilot/DB/obj/Debug/Database.dll
 /Users/crohrbach/Projects/HomeCopilot/DB/obj/Debug/Database.pdb
+c:\Users\crohr\sources\repos\HomeCopilot\DB\bin\Debug\Database.dacpac
+c:\Users\crohr\sources\repos\HomeCopilot\DB\bin\Debug\Database.dll
+c:\Users\crohr\sources\repos\HomeCopilot\DB\bin\Debug\Database.pdb
+c:\Users\crohr\sources\repos\HomeCopilot\DB\obj\Debug\Database.sqlproj.AssemblyReference.cache
+c:\Users\crohr\sources\repos\HomeCopilot\DB\obj\Debug\Database.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\crohr\sources\repos\HomeCopilot\DB\obj\Debug\Database.sourcelink.json
+c:\Users\crohr\sources\repos\HomeCopilot\DB\obj\Debug\Model.xml
+c:\Users\crohr\sources\repos\HomeCopilot\DB\obj\Debug\refactor.xml
+c:\Users\crohr\sources\repos\HomeCopilot\DB\obj\Debug\postdeploy.sql
+c:\Users\crohr\sources\repos\HomeCopilot\DB\obj\Debug\predeploy.sql
+c:\Users\crohr\sources\repos\HomeCopilot\DB\obj\Debug\Database.dll
+c:\Users\crohr\sources\repos\HomeCopilot\DB\obj\Debug\Database.pdb
