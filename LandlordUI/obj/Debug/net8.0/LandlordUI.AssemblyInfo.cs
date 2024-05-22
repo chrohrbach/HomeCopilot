@@ -13,11 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LandlordUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< HEAD
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab3b055bf7677704ff41e8a87f0220ba27974536")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
->>>>>>> 9a49a1aa2f742c52a2839e11c624be2a56b6c1ea
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+68638112455952146d0e6349882ba95bdc0bba0c")]
 [assembly: System.Reflection.AssemblyProductAttribute("LandlordUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LandlordUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
