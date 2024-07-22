@@ -16,4 +16,5 @@ public class Home
     public required string HomeAddressCountry { get; set; }
     public string? HomeAddressRegion { get; set; }
     public Person? HomeLandlord { get; set; }
+    public Ticket? HomeTicket { get; set; }
 }
